@@ -56,24 +56,19 @@ h3 {
 /* Below the Video */
 #wrapper {
   display: grid;
-  grid-column-gap: 5px;
+  grid-column-gap: 5rem;
   grid-template-columns: 2fr 1fr;
   margin-left: 5rem;
   height: 100rem;
-  width: 100 rem;
-  /* border: 5px solid purple; */
+  width: 75rem;
 }
 /* Left Side Column */
 /* Video Info Header */
 #vid-info {
-  /* border: 5px solid orange; */
   display: grid;
   grid-row-gap: 5px;
 
   grid-template-rows: 1fr 3fr;
-}
-#about {
-  /* border: 5px solid pink; */
 }
 
 #about a {
@@ -171,9 +166,7 @@ p {
   grid-column-gap: 2px;
   grid-row-gap: 40px;
   grid-template-columns: 1fr 5fr;
-  /* grid-template-rows: 12vh 5vh 12vh 5vh; */
   grid-template-rows: repeat (6, 40px);
-  /* border: 2px solid gold; */
 }
 
 #biden {
@@ -185,11 +178,6 @@ p {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-}
-#trump-channel {
-  /* display: flex;
-    align-items: baseline; */
-  /* border: 3px solid red; */
 }
 
 .name-and-date {
@@ -204,13 +192,6 @@ p {
   color: grey;
 }
 
-.actual-comment {
-  /* border: 3px solid blue; */
-}
-
-#aoc-channel {
-  /* border: 3px solid gold; */
-}
 #aoc {
   width: 3rem;
   height: 3rem;
@@ -232,9 +213,7 @@ p {
   border-radius: 50%;
 }
 /* Right side column */
-#next-up {
-  /* border: 5px solid blue; */
-}
+
 #next-up p {
   color: white;
 }
@@ -274,6 +253,10 @@ p {
   font-weight: lighter;
 }
 .likes p {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.dislikes p {
   font-size: 0.8rem;
   font-weight: lighter;
 }
