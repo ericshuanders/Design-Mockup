@@ -1,0 +1,293 @@
+/* Navbar section */
+body {
+  background-color: #323232 !important;
+}
+#top {
+  /* background-color: red; */
+  height: 5rem;
+  width: 100vw;
+}
+#masthead {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 2rem;
+}
+#masthead h3,
+img,
+.btn.btn-outline-secondary {
+  margin: 0 1em;
+}
+h3 {
+  color: white;
+}
+#bell {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+#eight {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+#magnifier {
+  height: 1rem;
+  width: 1rem;
+}
+#Ernie {
+  height: 3rem;
+  width: 3em;
+  border-radius: 50%;
+}
+#gear {
+  height: 1rem;
+  height: 1rem;
+  align-self: center;
+}
+.btn.btn-outline-secondary {
+  border-radius: 40px;
+}
+/* Video section */
+#video {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 5rem;
+}
+/* Below the Video */
+#wrapper {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-template-columns: 2fr 1fr;
+  margin-left: 5rem;
+  height: 100rem;
+  width: 100 rem;
+  /* border: 5px solid purple; */
+}
+/* Left Side Column */
+/* Video Info Header */
+#vid-info {
+  /* border: 5px solid orange; */
+  display: grid;
+  grid-row-gap: 5px;
+
+  grid-template-rows: 1fr 3fr;
+}
+#about {
+  /* border: 5px solid pink; */
+}
+
+#about a {
+  color: grey;
+}
+#about a:hover {
+  text-decoration: none;
+  color: white;
+}
+h2 {
+  color: white;
+}
+#channel-stats {
+  display: flex;
+  justify-content: space-between;
+}
+#channel {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+}
+#channel .btn.btn-outline-secondary {
+  border-radius: 40px;
+}
+#stats {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid green; */
+}
+#stats p {
+  font-size: 0.7rem;
+  margin: 0 1rem;
+  padding-top: 1rem;
+  color: grey !important;
+}
+#user-pic {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+}
+h5 {
+  margin: 1rem;
+  padding-top: 1rem;
+  color: grey;
+}
+
+#actions {
+  display: flex;
+  justify-content: space-between;
+  /* border: 3px solid brown; */
+}
+#action-text a {
+  margin: 0.4rem;
+  font-size: 0.9rem;
+}
+#stat-pics img {
+  width: 1rem;
+  height: 1rem;
+}
+#vid-info hr {
+  border-top: 2px solid grey;
+}
+#about p {
+  font-size: 0.9rem;
+  color: white;
+}
+/* #about p button {
+  color: none;
+} */
+#about #publish-info {
+  font-size: 0.7rem;
+}
+
+/* Comments section */
+/* Comments Header */
+#comments {
+  /* border: 5px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+#comments p {
+  color: white;
+}
+#comment-header {
+  /* border: 2px solid lime; */
+  margin-bottom: 2rem;
+}
+#comment-header h3,
+p {
+  display: inline;
+}
+/* List of users and comments GRID */
+#users {
+  display: grid;
+  grid-column-gap: 2px;
+  grid-row-gap: 40px;
+  grid-template-columns: 1fr 5fr;
+  /* grid-template-rows: 12vh 5vh 12vh 5vh; */
+  grid-template-rows: repeat (6, 40px);
+  /* border: 2px solid gold; */
+}
+
+#biden {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+#trump {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+#trump-channel {
+  /* display: flex;
+    align-items: baseline; */
+  /* border: 3px solid red; */
+}
+
+.name-and-date {
+  display: flex;
+  align-items: baseline;
+}
+.name-and-date a {
+  color: grey;
+}
+.name-and-date p {
+  font-size: 0.7rem;
+  color: grey;
+}
+
+.actual-comment {
+  /* border: 3px solid blue; */
+}
+
+#aoc-channel {
+  /* border: 3px solid gold; */
+}
+#aoc {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+#pence {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+#obama {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+#god {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+/* Right side column */
+#next-up {
+  /* border: 5px solid blue; */
+}
+#next-up p {
+  color: white;
+}
+.like-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.likes img,
+.dislikes img {
+  width: 1rem;
+  height: 1rem;
+}
+.buttons img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn.btn-dark.btn-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.3rem !important;
+  padding: 0.5rem;
+}
+.btn.btn-dark.btn-block p {
+  margin-bottom: 0;
+  font-size: 0.7rem;
+}
+.feedback hr {
+  border-top: 2px solid#51adcf;
+}
+.like-stats h5 {
+  font-weight: lighter;
+}
+.likes p {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+#playlist {
+  margin-top: 3rem;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-rows: repeat(8, 94px);
+  grid-template-columns: 1fr 6fr;
+}
+#playlist h6 {
+  color: white;
+}
+#playlist p {
+  color: #eeeeee;
+}
